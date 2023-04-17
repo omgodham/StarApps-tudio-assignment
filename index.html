@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <!-- <img src="./Blueumbrella.png" alt="" srcset="" /> -->
+        <!-- <img src="logo.png" alt="" class="logo-image" /> -->
+      </div>
+      <div class="right-container">
+        <h1>Custom Umbrella</h1>
+        <div class="color-pallet">
+          <div class="pink" onclick="handleColorClick(this)"></div>
+          <div class="yellow" onclick="handleColorClick(this)"></div>
+          <div class="blue" onclick="handleColorClick(this)"></div>
+        </div>
+        <div class="desc">
+          <h6>Customize your umbrella</h6>
+          <p>Upload a logo for an instant preview.</p>
+          <span>.png and .jpg files only Max file size is 5MB.</span>
+        </div>
+        <input type="file" id="input-image" accept="image/jpeg, image/png" />
+        <div class="button">
+          <span onclick="handleButtonClick(this)" class="upload">
+            UPLOAD LOGO</span
+          >
+          <!-- <span class="close" onclick="handleCloseClick(this)"> X</span> -->
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
